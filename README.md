@@ -33,6 +33,8 @@ python run_train_model.py --name ssq  # 执行训练双色球模型
 
 ```python
 python run_predict.py  --name ssq # 执行双色球模型预测
+python run_predict_noise.py  --name ssq # 执行双色球模型预测(添加噪点) 生成10条
+python run_predict_random.py  --name ssq # 执行双色球模型预测(添加随机数) 生成10条
 ```
 预测结果会打印在控制台
 
